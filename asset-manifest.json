@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/https//Bisma-Asif.github.io/To-Do-App/static/css/main.2dccb9d0.css",
+    "main.js": "/https//Bisma-Asif.github.io/To-Do-App/static/js/main.2b880098.js",
+    "static/js/787.2843ca88.chunk.js": "/https//Bisma-Asif.github.io/To-Do-App/static/js/787.2843ca88.chunk.js",
+    "index.html": "/https//Bisma-Asif.github.io/To-Do-App/index.html",
+    "main.2dccb9d0.css.map": "/https//Bisma-Asif.github.io/To-Do-App/static/css/main.2dccb9d0.css.map",
+    "main.2b880098.js.map": "/https//Bisma-Asif.github.io/To-Do-App/static/js/main.2b880098.js.map",
+    "787.2843ca88.chunk.js.map": "/https//Bisma-Asif.github.io/To-Do-App/static/js/787.2843ca88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dccb9d0.css",
+    "static/js/main.2b880098.js"
+  ]
+}
