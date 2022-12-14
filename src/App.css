@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+#container{
+  margin:10% auto 0 auto;
+	padding:30px;
+	width: 50%;
+	height:auto;
+	overflow:hidden;
+  background-color: rgb(119, 119, 238);
+	border-radius:10px; 
+}
+#main {
+  margin:0 auto 0 auto;
+	padding:30px;
+
+}
+.list-head{
+	margin-bottom: 20px;
+}
+input {
+	padding:15px 10px;
+	width:70%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+  margin-right: 10px;
+    transition:0.2s ease all;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:focus {
+	border-color:cornflowerblue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+button{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding:15px 40px;
+width:auto;
+border:none;
+color:white;
+cursor:pointer;
+display:inline-block;
+
+  border-radius: 40px;
+}
+.add-btn{
+  background-color: rgb(3, 164, 9);
+  color: azure;
+}
+ul li {
+	list-style: none;
+	align-items: center;
+    padding:10px 10px;
+	font-size: 18px;
+}
+#update{
+  background-color: rgb(209, 232, 9);
+}
+#delete{
+	background-color: #eb4747;
+  margin-right: 6px;
+}
+ul li button {
+  float: right;
+  padding: 13px 40px;
+}
+#edit{
+  background-color: rgb(0, 213, 255); 
+}
+#edit-input{
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*============= MEDIA QUERIES (MEDIUM DEVICES) ==============*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and ( max-width: 1024px) {
+  #container{
+    margin:0px;
+		width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+#main{
+  margin: 0;
+}
+}
+@media screen and ( max-width: 600px) {
+  input{
+    width: 100%;
+    margin: 0 auto;
   }
+  .add-btn{
+    margin-top: 10px;
+  }
+  #edit-input{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  ul li {
+    margin-top: 40px;
+  }
+  ul li button {
+    padding: 10px 30px;
+    display: flex;
+  }
+  
+ 
+  
 }
